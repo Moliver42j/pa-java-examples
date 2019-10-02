@@ -1,9 +1,5 @@
 package examplesfortechtest;
-/**
- * 
- * @author oli19171901
- *
- */
+
 public class BalancedBrackets 
 {
 	/**
