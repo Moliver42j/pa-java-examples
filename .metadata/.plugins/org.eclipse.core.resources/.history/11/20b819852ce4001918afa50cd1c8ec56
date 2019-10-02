@@ -1,0 +1,3 @@
+module examplesfortechtest {
+	requires junit;
+}

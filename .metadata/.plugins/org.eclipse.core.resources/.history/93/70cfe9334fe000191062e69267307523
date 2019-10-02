@@ -1,0 +1,27 @@
+package examplesfortechtest;
+
+public class StringExample {
+
+	public static void main(String[] args) 
+	{
+		firstCharacter();
+	}
+	public static void firstCharacter()
+	{
+		String name =  "matthew";
+		char first = name.charAt(0);
+		char last = name.charAt((name.length() - 1));
+		
+		StringBuilder sb = new StringBuilder();
+		
+		String starystar = "";
+		
+		for(int index = 1; index < (name.length()-1); index++)
+		{
+			starystar = starystar + "*";
+		}
+		
+		System.out.println(first + starystar + last);
+	}
+
+}

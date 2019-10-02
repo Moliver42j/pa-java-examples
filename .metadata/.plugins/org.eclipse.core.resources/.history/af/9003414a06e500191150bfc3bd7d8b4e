@@ -1,0 +1,68 @@
+package examplesfortechtest;
+
+public class BalancedBrackets 
+{
+	public String balancedBrackets(String brackets)
+	{
+		String out = ""; 
+		boolean balancedAf = false;
+		char[] bracketsArr = brackets.toCharArray();
+		
+		for(int index = 0; index <= (bracketsArr.length / 2); index++)
+		{
+			switch (bracketsArr[index]) 
+			{
+			case '(':
+				
+				if(bracketsArr[bracketsArr.length - index] == ')')
+				{
+					balancedAf = true;
+				}
+				else
+				{
+					balancedAf = false;
+				}
+				
+				break;
+			case '{':
+				
+				if(bracketsArr[bracketsArr.length - index] == '}')
+				{
+					balancedAf = true;
+				}
+				else
+				{
+					balancedAf = false;
+				}
+				
+				break;
+				
+			case '[':
+				
+				if(bracketsArr[bracketsArr.length - index] == ']')
+				{
+					balancedAf = true;
+				}
+				else
+				{
+					balancedAf = false;
+				}
+				
+				break;
+			}
+
+		}
+		
+		
+		
+		if(balancedAf)
+		{
+			out = "balanced";
+		}
+			else
+			{
+				out = "not balanced";
+			}
+		return out;
+	}
+}

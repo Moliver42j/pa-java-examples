@@ -1,0 +1,19 @@
+package examplesfortechtest;
+
+public class fridayExamples {
+
+	public static void main(String[] args) 
+	{
+		fridayExamples 
+		System.out.println(" the answer to life the universe and everything is " + return);
+
+	}
+	
+	public int returnInt()
+	{
+		int out = 42;
+		
+		return out;
+	}
+
+}

@@ -1,0 +1,167 @@
+package examplesfortechtest;
+
+public class ExampleOne 
+{
+	
+	private static int a = 4;
+	private static int b = 5;
+	
+	public static void main(String[] args) 
+	{
+		//printConditions();
+		//forLoopDownCount();
+		//WhilesyWhile();
+		statementStrings();
+	}
+	public static void statementStrings()
+	{
+		String day = "Teusday";
+		
+		switch (day) 
+		{
+		case "Monday":
+			System.out.println("Monday");
+			break;
+		case "Teusday":
+			System.out.println("Teusday");		
+					break;
+		case "Wednesday":
+			System.out.println("Wednesday");
+			break;
+		case "Thursday":
+			System.out.println("Thursday");
+			break;
+		case "Friday":
+			System.out.println("Friday");
+			break;
+			
+		case "Saturday":
+			System.out.println("Saturday");
+			break;
+		case "Sunday":
+			System.out.println("Sunday");
+			break;
+
+		default:
+			System.out.println("ERROR");
+		}
+	}
+	
+	public void switchCalander(int day)
+	{
+		switch (day) 
+		{
+		case 1: case 2: case 3: case 4: case 5:
+			System.out.println("weekday");
+			break;
+		case 6:
+			System.out.println("Saturday");
+			break;
+		case 7:
+			System.out.println("Sunday");
+			break;
+
+		default:
+			System.out.println("ERROR");
+		}
+	}
+	
+	
+	public void doWhile()
+	{
+		int i=0;
+		
+		do 
+		{
+			System.out.println(i);
+			i++;
+		} while (i<5);
+	}
+	
+	public void whilesyWhile()
+	{
+		int i=0;
+		while (i<170) 
+		{
+			System.out.println(i);
+			++i;
+		}
+	}
+	
+	public void forLoopDownCount()
+	{
+		a = 1000;
+		for(int index = a; index >= 0; index--)
+		{
+			System.out.println(index);
+		}
+	}
+		
+	public void printConditions()
+	{
+		if (a==b) {
+			System.out.println("A = B");
+		}
+		else
+		{
+			System.out.println("A != B");
+		}
+		
+		if (a<=b) {
+			System.out.println("A <= B");
+		}
+		else
+		{
+			System.out.println("A !<= B");
+		}
+		
+		if (a<b) {
+			System.out.println("A < B");
+		}
+		else
+		{
+			System.out.println("A !< B");
+		}
+		
+		if (a>b) {
+			System.out.println("A > B");
+		}
+		else
+		{
+			System.out.println("A !> B");
+		}
+		
+		if (a>=b) {
+			System.out.println("A >= B");
+		}
+		else
+		{
+			System.out.println("A !>= B");
+		}
+		
+		if (a!=b) {
+			System.out.println("A != B");
+		}
+		else
+		{
+			System.out.println("A = B");
+		}
+		
+		if (a>b || a<b) {
+			System.out.println("A < B || A > B");
+		}
+		else
+		{
+			System.out.println("A = B");
+		}
+		
+		if (3<a && a<6) {
+			System.out.println("3 < A < 6");
+		}
+		else
+		{
+			System.out.println("A is not between 3 and 6");
+		}
+		
+	}
+}

@@ -1,0 +1,41 @@
+package examplesfortechtest;
+
+/**
+ * 
+ * @author oli19171901
+ *
+ */
+public class RachelQuestion {
+
+	/**
+	 * this is a method to turn any string into a CamelCaseWord
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		String sentence = "this is a camel case sentence";
+		
+		String[] words = sentence.split(" ");
+		
+		StringBuilder sb = new StringBuilder();
+		
+		for(int index =0; index<words.length; index++) 
+		{
+			for(int letter =0; letter<words[index].length(); letter++) 
+			{
+				if(letter == 0)
+				{
+					sb.append(Character.toUpperCase(words[index].charAt(letter)));
+				}
+				else {
+					sb.append(Character.toLowerCase(words[index].charAt(letter)));
+				}
+			}
+		
+		}
+		System.out.println(sb.toString());
+		
+	}
+	
+
+}

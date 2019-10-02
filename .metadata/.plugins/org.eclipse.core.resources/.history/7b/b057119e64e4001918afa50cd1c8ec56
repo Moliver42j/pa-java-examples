@@ -1,0 +1,51 @@
+package examplesfortechtest;
+
+public class RachelQuestion {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+	
+	public boolean equalIsNot(String str) 
+	{
+
+		//check if a string contains is and/ or not
+        int countIs=0;
+
+        int countNot=0;
+
+        boolean result=false;
+
+        String[] words = str.split(" ");
+
+        for (int index = 0; index < words.length; index++) {
+
+               if(words[index].contains("is")) 
+               {
+
+                     countIs++;
+
+               }else if(words[index].contains("not")) {
+
+                     countNot++;
+
+               }
+
+        }
+
+       
+
+        if(countIs==countNot) {
+
+               result = true;
+
+        }
+
+       
+
+        return result;
+
+ }
+
+}

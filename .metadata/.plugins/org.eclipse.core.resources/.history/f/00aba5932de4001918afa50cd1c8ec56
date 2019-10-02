@@ -1,0 +1,12 @@
+package examplesfortechtest;
+
+
+public class UnitTest 
+{
+	@Test
+	public void testConcat()
+	{
+		
+	}
+	
+}
