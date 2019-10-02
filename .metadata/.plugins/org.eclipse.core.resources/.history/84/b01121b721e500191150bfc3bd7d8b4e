@@ -1,0 +1,77 @@
+package examplesfortechtest;
+
+import java.util.Arrays;
+
+/**
+ * 
+ * @author oli19171901
+ *
+ */
+public class BalancedBracketsAgain 
+{
+	/**
+	 * Checks for balanced brackets
+	 * @param brackets
+	 * @return
+	 */
+	public String balancedBrackets(String brackets)
+	{
+		String[] bracketsArr = new String[brackets.length()];
+		String matching = "";
+		StringBuilder sb = new StringBuilder();
+		//make String array
+		for (int loop = 0; loop < bracketsArr.length; loop++)
+		{
+			bracketsArr[loop] = Character.toString(brackets.charAt(loop));
+		}
+		
+		for (int index = 0; index < bracketsArr.length; index++)
+		{
+			
+			System.out.println("String array = " + Arrays.toString(bracketsArr));
+			
+			if(bracketsArr[index] ==  "(")
+			{
+				matching = ")";
+			} else
+			if(bracketsArr[index] ==  "{")
+			{
+				matching = "}";
+			}else
+			if(bracketsArr[index] ==  "[")
+			{
+				matching = "]";
+			}
+			
+			//compare
+			for(int innerLoop = index; innerLoop < bracketsArr.length; innerLoop++)
+			{
+				if(bracketsArr[innerLoop] != matching)
+				{
+					bracketsArr[index] = "";
+					bracketsArr[innerLoop] = "";
+					break;
+				}
+			}
+		}
+		System.out.println("String array at finishS = " + Arrays.toString(bracketsArr));
+		
+		boolean empty = true;
+		for(int lastCheck = 0; lastCheck < bracketsArr.length; lastCheck++)
+		{
+			if(bracketsArr[lastCheck] != "")
+			{
+				empty = false;
+			}
+		}
+			
+		if(empty == false)
+		{
+			return "not balanced";
+		}	
+		else
+		{
+			return "balanced";
+		}
+	}
+}

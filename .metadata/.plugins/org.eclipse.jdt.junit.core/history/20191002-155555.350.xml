@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BalancedBracketsTest" project="examplesfortechtest" tests="12" started="12" failures="4" errors="0" ignored="0">
+  <testsuite name="examplesfortechtest.BalancedBracketsTest" time="0.011">
+    <testcase name="testTooManyCurly" classname="examplesfortechtest.BalancedBracketsTest" time="0.001">
+      <failure>
+        <expected>Not Balanced</expected>
+        <actual>Balanced</actual>
+        org.junit.ComparisonFailure: expected:&lt;[Not ]Balanced&gt; but was:&lt;[]Balanced&gt;&#13;
+	at junit/org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at junit/org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at examplesfortechtest/examplesfortechtest.BalancedBracketsTest.testTooManyCurly(BalancedBracketsTest.java:75)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at junit/org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#13;
+	at junit/org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at junit/org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#13;
+	at junit/org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at junit/org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#13;
+	at junit/org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at junit/org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at junit/org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at junit/org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at junit/org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at junit/org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at junit/org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at junit/org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testTooManyParen" classname="examplesfortechtest.BalancedBracketsTest" time="0.002"/>
+    <testcase name="testOpposites" classname="examplesfortechtest.BalancedBracketsTest" time="0.0"/>
+    <testcase name="test1" classname="examplesfortechtest.BalancedBracketsTest" time="0.0"/>
+    <testcase name="test2" classname="examplesfortechtest.BalancedBracketsTest" time="0.001"/>
+    <testcase name="test3" classname="examplesfortechtest.BalancedBracketsTest" time="0.0"/>
+    <testcase name="test4" classname="examplesfortechtest.BalancedBracketsTest" time="0.001"/>
+    <testcase name="test5" classname="examplesfortechtest.BalancedBracketsTest" time="0.0"/>
+    <testcase name="test6" classname="examplesfortechtest.BalancedBracketsTest" time="0.001">
+      <failure>
+        <expected>Not Balanced</expected>
+        <actual>Balanced</actual>
+        org.junit.ComparisonFailure: expected:&lt;[Not ]Balanced&gt; but was:&lt;[]Balanced&gt;&#13;
+	at junit/org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at junit/org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at examplesfortechtest/examplesfortechtest.BalancedBracketsTest.test6(BalancedBracketsTest.java:48)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at junit/org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#13;
+	at junit/org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at junit/org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#13;
+	at junit/org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at junit/org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#13;
+	at junit/org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at junit/org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at junit/org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at junit/org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at junit/org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at junit/org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at junit/org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at junit/org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="test7" classname="examplesfortechtest.BalancedBracketsTest" time="0.002"/>
+    <testcase name="testTooManySquare" classname="examplesfortechtest.BalancedBracketsTest" time="0.001">
+      <failure>
+        <expected>Not Balanced</expected>
+        <actual>Balanced</actual>
+        org.junit.ComparisonFailure: expected:&lt;[Not ]Balanced&gt; but was:&lt;[]Balanced&gt;&#13;
+	at junit/org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at junit/org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at examplesfortechtest/examplesfortechtest.BalancedBracketsTest.testTooManySquare(BalancedBracketsTest.java:68)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at junit/org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#13;
+	at junit/org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at junit/org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#13;
+	at junit/org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at junit/org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#13;
+	at junit/org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at junit/org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at junit/org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at junit/org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at junit/org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at junit/org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at junit/org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at junit/org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testSpaces" classname="examplesfortechtest.BalancedBracketsTest" time="0.001">
+      <failure>
+        <expected>Balanced</expected>
+        <actual>Not Balanced</actual>
+        org.junit.ComparisonFailure: expected:&lt;[]Balanced&gt; but was:&lt;[Not ]Balanced&gt;&#13;
+	at junit/org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at junit/org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at examplesfortechtest/examplesfortechtest.BalancedBracketsTest.testSpaces(BalancedBracketsTest.java:82)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at junit/org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#13;
+	at junit/org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at junit/org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#13;
+	at junit/org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at junit/org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#13;
+	at junit/org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at junit/org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at junit/org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at junit/org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at junit/org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at junit/org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at junit/org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at junit/org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

@@ -1,0 +1,87 @@
+package examplesfortechtest;
+
+import java.util.Arrays;
+
+/**
+ * 
+ * @author oli19171901
+ *
+ */
+public class BalancedBracketsAgain 
+{
+	/**
+	 * Checks for balanced brackets
+	 * @param brackets
+	 * @return
+	 */
+	public static String balancedBrackets(String brackets)
+	{
+		char[] bracketsArr = new char[brackets.length()];
+		char matching = ' ';
+
+		//make String array
+		for (int loop = 0; loop < bracketsArr.length; loop++)
+		{
+			bracketsArr[loop] = brackets.charAt(loop);
+			System.out.print(" blah" + bracketsArr[loop] + " .");
+		}
+		
+		for (int index = 0; index < bracketsArr.length; index++)
+		{
+			
+			System.out.println("String array = " + Arrays.toString(bracketsArr));
+			
+			if(bracketsArr[index] ==  '(')
+			{
+				matching = ')';
+			} else
+			if(bracketsArr[index] ==  '{')
+			{
+				matching = '}';
+			}else
+			if(bracketsArr[index] ==  '[')
+			{
+				matching = ']';
+			}
+			
+			//compare
+			for(int innerLoop = index; innerLoop < bracketsArr.length; innerLoop++)
+			{
+				System.out.println("matching = " + matching);
+				if(bracketsArr[innerLoop] == matching)
+				{
+					bracketsArr[index] = ' ';
+					bracketsArr[innerLoop] = ' ';
+					break;
+				}
+				else if(innerLoop == (bracketsArr.length-1)
+						{
+							return "Not Balanced";
+						}
+			}
+		}
+		System.out.println("String array at finish = " + Arrays.toString(bracketsArr));
+		
+		boolean empty = true;
+		for(int lastCheck = 0; lastCheck < bracketsArr.length; lastCheck++)
+		{
+			if(bracketsArr[lastCheck] != ' ')
+			{
+				empty = false;
+			}
+		}
+			
+		if(empty == false)
+		{
+			System.out.println("not balanced");
+			return "Not Balanced";
+			
+		}	
+		
+		else
+		{
+			System.out.println("balanced");
+			return "Balanced";
+		}
+	}
+}

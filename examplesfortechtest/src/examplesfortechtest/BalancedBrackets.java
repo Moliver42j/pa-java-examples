@@ -34,6 +34,7 @@ public class BalancedBrackets
 						continue;
 					}
 				}
+				
 				if(bracketsArr[index] == '[')
 				{
 					if(bracketsArr[(bracketsArr.length - 1) - index] == ']')
@@ -47,6 +48,7 @@ public class BalancedBrackets
 						continue;
 					}
 				}
+				
 				if(bracketsArr[index] == '{')
 				{
 					if(bracketsArr[(bracketsArr.length - 1) - index] == '}')

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BalancedBracketsTest" project="examplesfortechtest" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="examplesfortechtest.BalancedBracketsTest" time="0.004">
+    <testcase name="testBalancedBrackets1" classname="examplesfortechtest.BalancedBracketsTest" time="0.0"/>
+    <testcase name="testBalancedBrackets2" classname="examplesfortechtest.BalancedBracketsTest" time="0.001"/>
+    <testcase name="testBalancedBrackets3" classname="examplesfortechtest.BalancedBracketsTest" time="0.001"/>
+    <testcase name="testBalancedBrackets4" classname="examplesfortechtest.BalancedBracketsTest" time="0.0"/>
+    <testcase name="testBalancedBrackets5" classname="examplesfortechtest.BalancedBracketsTest" time="0.002"/>
+  </testsuite>
+</testrun>
