@@ -71,10 +71,10 @@ public class RachelQuestion {
                 board[row][column] = ' ';
                 isWord = true;
               }
-              else 
-              {
-                isWord = false;
-              }
+	              else 
+	              {
+	                isWord = false;
+	              }
             }
           System.out.print("\n");
         }
@@ -84,9 +84,9 @@ public class RachelQuestion {
     
     public static boolean check(boolean isIt) 
       {
-        // Your code here too!
+        
         return isIt;
-    }
+      }
 	
 
 }

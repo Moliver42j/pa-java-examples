@@ -10,7 +10,7 @@ public class BalancedBracketsTest {
 	public void testBalancedBrackets1(){
 		BalancedBracketsAgain balancedBrackets = new BalancedBracketsAgain();
 		
-		String actual = balancedBrackets.balancedBrackets("[()]");
+		String actual = balancedBrackets.balancedBrackets("(()){}");
 		
 		assertEquals("balanced", actual);
 	}

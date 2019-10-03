@@ -1,0 +1,32 @@
+package examplesfortechtest;
+
+public class Wednesday {
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+	
+	public boolean strinE(String in)
+	{
+		char[] inArr = in.toCharArray();
+		int howManyEs = 0;
+		for(int index = 0; index < inArr.length; index++)
+		{
+			if(inArr[index] == 'e')
+			{
+				howManyEs++;
+			}
+		}		
+		if(howManyEs > 1 && howManyEs < 3)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+		
+	}
+}

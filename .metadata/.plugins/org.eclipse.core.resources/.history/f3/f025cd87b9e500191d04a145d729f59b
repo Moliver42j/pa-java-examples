@@ -1,0 +1,54 @@
+package examplesfortechtest;
+
+public class Wednesday {
+
+	public static void main(String[] args) 
+	{
+		System.out.println(stringE("hello"	));
+		System.out.println(stringE("heelle"	));
+		System.out.println(stringE("heelele"));		
+		
+		System.out.println(solution(10));
+	}	
+	
+	public static boolean stringE(String in)
+	{
+		char[] inArr = in.toCharArray();
+		int howManyEs = 0;
+		boolean gotEs;
+		
+		for(int index = 0; index < inArr.length; index++)
+		{
+			if(inArr[index] == 'e')
+			{
+				howManyEs++;
+			}
+		}
+		
+		if(howManyEs >= 1 && howManyEs <= 3)
+		{
+			gotEs = true;
+		}	else
+			{
+				gotEs = false;
+			}
+		
+		
+		return gotEs;		
+	}
+	
+	public static int solution(int number) 
+	  {
+	    int sum = 0;
+	    //iterate through all the numbers below the 'number int'
+	    for(int index = 1; index <number; index++)
+	    {
+	      //check if they are a multiple of 3 OR 5 and add them to the sum
+	      if(index % 3 == 0 || index % 5 == 0)
+	      {
+	        sum += index;
+	      }
+	    }
+	    return sum;
+	  }
+}

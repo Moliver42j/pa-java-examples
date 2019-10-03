@@ -13,7 +13,7 @@ public class ArrivalsDeparturesAgain {
 		String[] lines = {"HELLO "};
 		int[][] rotors = {{15,49,50,48,43,13}};
 		
-		System.out.println(flapDisplay(lines, rotors));
+		System.out.println(Arrays.toString(flapDisplay(lines, rotors)));
 
 	}
 	

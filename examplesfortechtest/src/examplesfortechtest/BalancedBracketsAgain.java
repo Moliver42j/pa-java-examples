@@ -34,15 +34,15 @@ public class BalancedBracketsAgain
 			if(bracketsArr[index] ==  '(')
 			{
 				matching = ')';
-			} else
+			}else
 			if(bracketsArr[index] ==  '{')
 			{
 				matching = '}';
-			}else
-			if(bracketsArr[index] ==  '[')
+			}else if(bracketsArr[index] ==  '[')
 			{
 				matching = ']';
-			}
+			}	
+			
 			
 			//compare
 			for(int innerLoop = index; innerLoop < bracketsArr.length; innerLoop++)
